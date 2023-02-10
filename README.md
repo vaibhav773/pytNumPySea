@@ -8,4 +8,5 @@ mse-
 The Mean Squared Error (MSE) or Mean Squared Deviation (MSD) of an estimator measures the average of error squares i.e. the average squared difference between the estimated values and true value. It is a risk function, corresponding to the expected value of the squared error loss. It is always non – negative and values close to zero are better. The MSE is the second moment of the error (about the origin) and thus incorporates both the variance of the estimator and its bias.
 ar vs lr-
 Autoregression modeling is a modeling technique used for time series data that assumes linear continuation of the series so that previous values in the time series can be used to predict futures values.  Some of you may be thinking that this sounds just like a linear regression – it sure does sound that way and is – in general – the same idea with additional features of the model that includes the idea of ‘lag variables’
-
+stationary and non stationary data
+When a time series is stationary, it means that certain attributes of the data do not change over time(i.e mean, median, mode). However, some time series are non-stationary, whereby values and associations between and among variables do vary with time. In finance, many processes are non-stationary, and so must be handled appropriate.
